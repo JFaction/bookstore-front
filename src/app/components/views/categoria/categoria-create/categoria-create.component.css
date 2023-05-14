@@ -22,10 +22,10 @@ button{
 .btnCriar{
     color:black;
     background-color: #449bff;
-    border: 3px solid black;
+    border: 1px solid black;
 }
 .btnCancelar{
     color:black;
     background-color: rgb(255, 79, 109);
-    border: 3px solid black;
+    border: 1px solid black;
 }
