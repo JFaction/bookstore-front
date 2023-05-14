@@ -1,8 +1,14 @@
-<div class="content">
+<div class="container">
   <div class="title">
     <h1>Categoria</h1>
   </div>
-  <div class="mat-elevation-z8 content-table">
+
+  
+  <button mat-stroked-button>Nova Categoria</button>
+  
+  <div class="content mat-elevation-z8 content-table">
+    
+
     <table class="table" mat-table [dataSource]="categorias">
       <!-- Position Column -->
       <ng-container matColumnDef="id">
@@ -22,10 +28,26 @@
         <td mat-cell *matCellDef="let row">{{ row.descricao }}</td>
       </ng-container>
 
+      <ng-container matColumnDef="livros">
+        <th mat-header-cell *matHeaderCellDef>Livros</th>
+        <td mat-cell *matCellDef="let row">
+          <a href="#" class="livros">
+            <i class="material-icons">book</i>
+          </a>
+        </td>
+      </ng-container>
+
       <!-- Symbol Column -->
       <ng-container matColumnDef="acoes">
-        <th mat-header-cell *matHeaderCellDef>Ações</th>
-        <td mat-cell *matCellDef="let row">  </td>
+        <th class="mat-header" mat-header-cell *matHeaderCellDef>Ações</th>
+        <td mat-cell *matCellDef="let row">
+          <a href="#">
+            <i class="edit material-icons">edit</i>
+          </a>
+          <a href="#">
+            <i class="delete material-icons">delete</i>
+          </a>
+        </td>
       </ng-container>
 
       <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>

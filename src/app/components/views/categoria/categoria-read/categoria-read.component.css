@@ -1,18 +1,45 @@
+.container{
+    background-color: #92c4fd;
+}
 .content{
     width: 90%;
     margin: 1.4rem auto auto;
+
 }
 
 .title{
+    margin-top: 30px;
     text-align: center;
     margin-bottom: 3rem;
 }
 
 .title h1{
     font-size: 2rem;
-    color: rgb(34, 104, 255);
-    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
 }
+
+button{
+    margin-left: 4.8%;
+    color:black;
+    background-color: #449bff;
+    border: 3px solid black;
+}
+
 .table{
     width:100%;
+    background-color: #d4e7fc;
+}
+.livros{
+    margin-left: .5rem;
+    color: rgb(30, 78, 210)
+}
+.edit{
+    color: rgb(30, 78, 210);
+}
+.delete{
+    color: rgb(210, 30, 60);
+}
+.mat-header{
+    width:5rem;
 }
