@@ -19,12 +19,18 @@ button{
     padding-right: 2rem;
     padding-left: 2rem;
 }
-.btnCriar{
+.input{
+    color: #000;
+}
+textarea{
+    color: #000; 
+}
+.btnCancelar{
     color:black;
     background-color: #449bff;
     border: 1px solid black;
 }
-.btnCancelar{
+.btnDeletar{
     color:black;
     background-color: rgb(255, 79, 109);
     border: 1px solid black;
