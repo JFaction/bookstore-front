@@ -1,0 +1,14 @@
+form{
+    width: 90%;
+    margin: auto;
+}
+
+.home{
+    margin: 1rem auto;
+    text-align: center;
+}
+button{
+    background-color: #9bcaff;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
